@@ -20,11 +20,11 @@ BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SECRET_KEY = 'pi!(m*k!^9oy5+l=6uzb6_e3o@1+qu(m08)2)2lpjedx&iq=v5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['staging.skriex.com']
 
 
 # Application definition
